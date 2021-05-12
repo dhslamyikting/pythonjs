@@ -54,7 +54,7 @@
             const classPrediction =
                 prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             if (prediction[i].className == "Class 1" && prediction[i].probability > 0) {
-                labelContainer.childNodes[i].innerHTML = classPrediction;
+                labelContainer.childNodes[i].innerHTML = classPrediction + "hello";
             }
         }
     }
